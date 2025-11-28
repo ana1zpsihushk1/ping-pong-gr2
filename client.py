@@ -28,7 +28,7 @@ def send_request(request):
 def main():
     print("Клиент запущен")
     print("Формат запроса: 15 латинских букв (a-z) + 1 цифра (0-9)")
-    print("Пример: hellothereabcde3")
+    print("Пример: hello54321abcde9f")
     print("Чтобы выйти, введите пустую строку")
     print()
 
