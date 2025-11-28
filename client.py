@@ -26,16 +26,16 @@ def send_request(request):
 
 
 def main():
-    print("КЛИЕНТ ЗАПУЩЕН.")
-    print("Формат запроса: 15 латинских букв (a-z) + 1 цифра (0-9).")
+    print("Клиент запущен")
+    print("Формат запроса: 15 латинских букв (a-z) + 1 цифра (0-9)")
     print("Пример: hellothereabcde3")
-    print("Чтобы выйти, введите пустую строку или 'quit'.")
+    print("Чтобы выйти, введите пустую строку")
     print()
 
     while True:
         user_input = input("Введите запрос: ").strip().lower()
 
-        if user_input == "" or user_input == "quit":
+        if user_input == "":
             print("Клиент завершает работу.")
             break
 
